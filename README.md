@@ -15,19 +15,19 @@ A community service hub web application that connects neighbors and enables them
 
 ## 📂 Project Structure
 hands-together/
-├── index.html              # Main HTML file
+├── index.html              
 ├── src/
-│   └── index.js            # JavaScript functionality
+│   └── index.js            
 ├── css/
-│   └── style.css           # Styling (not provided)
+│   └── style.css           
 ├── images/
-│   ├── hub1.jpg           # Community images
+│   ├── hub1.jpg           
 │   ├── hub2.jpg
 │   ├── hub3.jpg
-│   ├── view.png           # Action icons
+│   ├── view.png           
 │   ├── edit.png
 │   └── delete.png
-└── README.md              # This file
+└── README.md              
 
 ## 🚀 Getting Started
 
