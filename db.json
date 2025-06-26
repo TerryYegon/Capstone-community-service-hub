@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "title": "Food for the street children",
+      "description": "food to be available from 1-2 pm in Nairobi",
+      "category": "Food",
+      "location": "Nakuru",
+      "imageurl": "https://images.unsplash.com/photo-1642345999308-a9226c78b9ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJlZSUyMGltYWdlcyUyMHNob3dpbmclMjAlMjBkb2N0b3JzJTIwYXR0ZW5kaW5nJTIwdG8lMjB0aGVpciUyMHBhdGllbnRzfGVufDB8fDB8fHww",
+      "contact": "mohammedhassan@gmail.com",
+      "date": "2025-06-26T13:27:22.330Z",
+      "id": "c1e6"
+    },
+    {
+      "id": "d111",
+      "title": "Giving bursaries",
+      "description": "we are paying fee for needy students",
+      "category": "Education",
+      "location": "Nakuru",
+      "imageurl": "https://images.unsplash.com/photo-1733286256730-af6317c5ab9b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZSUyMGltYWdlcyUyMHNob3dpbmclMjAlMjBwZW9wbGUlMjBnaXZpbmclMjBidXJzYXJpZXN8ZW58MHx8MHx8fDA%3D",
+      "contact": "mikefuchaka@gmail.com",
+      "date": "2025-06-26T13:34:35.045Z"
+    }
+  ]
+}

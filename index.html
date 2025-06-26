@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community service hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+
+
+  
+<nav class="sidebar">
+  <button id="navHome" title="Home">🏠</button>
+  <button id="navCreate" title="Post a Service">➕</button>
+  <button id="navPosts" title="Posts">📄</button>
+</nav>
+
+
+  
+  <section id="homeSection">
+
+<header>
+    <h1>Hands Together</h1>
+  </header>
+    <h2>Welcome to Hands Together!</h2>
+    <p class="slide-fade-in">
+        Your community service hub. Connect, serve, and support each other.</p>
+  <div class="circle-image-container">
+  <img src="images/hub2.jpg" alt="Community 1" class="circle-img img1">
+  <img src="images/hub3.jpg" alt="Community 2" class="circle-img img2">
+  <img src="images/hub1.jpg" alt="Community 3" class="circle-img img3">
+</div>
+ 
+  
+    </section>
+
+  
+  <section id="createSection" style="display: none;">
+    <h2>Your small thing could be someone's big solution share what you offer!</h2>
+   
+
+    <div class="form-container">
+        
+    <form id="postForm">
+      <input type="hidden" id="postId" value="">
+
+      <label for="title">Title:</label><br>
+      <input type="text" id="title" required><br><br>
+
+      <label for="description">Description:</label><br>
+      <textarea id="description" required></textarea><br><br>
+
+      <label for="category">Category:</label><br>
+      <select id="category" required>
+        <option value="Food">Food</option>
+        <option value="Transport">Transport</option>
+        <option value="Education">Education</option>
+        <option value="Health">Health</option>
+        <option value="Other">Other</option>
+      </select><br>
+
+      <label for="location">Location:</label><br>
+      <input type="text" id="location" required><br>
+
+      <label for="contact">Contact Info:</label><br>
+      <input type="text" id="contact" required><br><br>
+
+      <label for="imageUrl">Image URL (optional):</label><br>
+      <input type="url" id="imageUrl" placeholder="Paste image URL"><br><br>
+
+      <div id="imagePreviewContainer" style="display:none;">
+        <p>Image Preview:</p>
+        <img id="imagePreview" src="#" alt="Image preview" style="max-width: 200px;" />
+      </div>
+
+      <button type="submit" id="submitBtn">Submit Post</button>
+    </form>
+    </div>
+  </section>
+
+  
+  <section id="postListSection" style="display: none;">
+    <h2>Community Posts</h2>
+
+     <div class="filter-bar">
+    <input type="text" id="filterLocation" placeholder="Search location" />
+
+    <label for="filterCategory">Category:</label>
+    <select id="filterCategory">
+      <option value="">Choose category</option>
+      <option value="Food">Food</option>
+      <option value="Transport">Transport</option>
+      <option value="Education">Education</option>
+      <option value="Health">Health</option>
+      <option value="Other">Other</option>
+    </select>
+ </div>
+    
+    <hr>
+
+    <div id="postList"></div>
+  </section>
+
+ <footer>
+    <hr>
+    <p>&copy; 2025 Local Community Service Hub | All rights reserved.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  <script src="src/index.js"></script>
+</body>
+
+</html>

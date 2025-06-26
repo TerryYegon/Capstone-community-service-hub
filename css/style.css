@@ -1,0 +1,284 @@
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50px;
+  background-color:#64DFDF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  
+}
+
+
+.sidebar button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+
+.sidebar button:hover {
+  transform: scale(1.2);
+}
+
+
+#navHome { color: #BC6C25; }       
+#navCreate { color: #00509D; }     
+#navPosts { color: #6B9080; }    
+
+
+
+#homeSection {
+  margin-left: 70px; 
+  padding: 40px;
+  height: 100vh;
+  background: url('../images/hub5.jpg') no-repeat center center/cover; /* Optional */
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+.home-header h1 {
+  font-size: 5rem; 
+  font-weight: bold;
+  color: #333;
+  width: 75%;
+  margin: 0;
+  padding: 20px 0;
+  line-height: 1.2;
+}
+
+
+#homeSection h2 {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #444;
+}
+
+
+.slide-fade-in {
+  opacity: 0;
+  transform: translateX(-50px); 
+  animation: slideFadeIn 2s ease-out forwards;
+  animation-delay: 0.5s;
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 20px;
+  max-width: 75%;
+}
+
+
+@keyframes slideFadeIn {
+  to {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+}
+
+
+.circle-image-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 40px auto; 
+}
+
+
+.circle-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img1 {
+  top: 0;
+  left: 20%;
+  transform: translateX(-50%);
+}
+
+.img2 {
+  bottom: 20;
+  left: 90%;
+}
+
+.img3 {
+  bottom: 0;
+  right: 100%;
+}
+#createSection {
+  margin-left: 100px; 
+  background-image: url('../images/hub9.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#createSection h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  justify-content: center;
+}
+
+#postForm input,
+#postForm select,
+#postForm textarea,
+#postForm button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#postForm button {
+  background-color: #2a8b5c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#postForm button:hover {
+  background-color: #256f4b;
+}
+
+#imagePreviewContainer {
+  text-align: center;
+}
+
+#postListSection {
+  margin-left: 50px; 
+  padding: 40px 20px;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-bar input,
+.filter-bar select {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+#postList {
+  display: flex;
+  flex-wrap: wrap;         
+  gap: 20px;               
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+
+.post-card {
+  width: 250px;              
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;   
+  align-items: center;
+}
+
+
+.post-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+
+.post-details {
+  width: 100%;
+  text-align: left;
+}
+
+.post-details h3 {
+  margin: 0 0 10px;
+}
+
+.post-details p {
+  margin: 4px 0;
+}
+
+footer {
+  margin-left: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: #EFF7F6;
+  color: #555;
+}
+
+.post button {
+  background-color: #f0f0f0;   
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.post .viewBtn {
+  background-color: #d4f1f4; 
+}
+
+.post .editBtn {
+  background-color: #ffe0b2; 
+}
+
+.post .deleteBtn {
+  background-color: #ffcdd2; 
+}
+
+
+.post button:hover {
+  background-color: #ccc;
+}
+
+
+.post button img {
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
