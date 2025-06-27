@@ -61,7 +61,7 @@ For Production (Render Deployment):
 Deploy your JSON server to Render
 Update the API_URL in src/index.js to your Render URL
 
-javascriptconst API_URL = "https://your-app-name.onrender.com/posts";
+javascriptconst API_URL = "https://community-service-hub.onrender.com/posts";
 
 Frontend Setup
 
@@ -79,7 +79,7 @@ Base URL: http://localhost:3000
 
 Production (Render):
 
-Base URL: https://your-app-name.onrender.com
+Base URL: https://community-service-hub.onrender.com
 
 Endpoints:
 
@@ -171,7 +171,7 @@ Update the API_URL constant in src/index.js:
 For Local Development:
 javascriptconst API_URL = "http://localhost:3000/posts";
 For Production (Render):
-javascriptconst API_URL = "https://your-app-name.onrender.com/posts";
+javascriptconst API_URL = "https://community-service-hub.onrender.com/posts";
 Deploying to Render
 
 Create a JSON Server project:
