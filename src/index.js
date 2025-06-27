@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/posts";
+const API_URL = "https://community-service-hub.onrender.com/posts";
 
 
 
